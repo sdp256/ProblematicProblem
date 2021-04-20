@@ -61,7 +61,7 @@ namespace ProblematicProblem
 
                 Console.WriteLine();
                 Console.Write("Would you like to add any activities before we generate one? yes/no: ");
-                var userInput3 = Console.ReadLine() ;
+                var userInput3 = Console.ReadLine();
                 bool addToList;
                 if (userInput3.ToLower() == "yes")
                 {
